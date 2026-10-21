@@ -1,0 +1,21 @@
+Algoritmo usoFunciones
+	definir sen0, cosen0, tangent3, ra1z, logaritmoNatur4l, logaritmo10 Como Real
+	Escribir  "ingrese un numero: " 
+	leer numer0
+	
+	sen0 = sen(numer0)
+	cosen0 = cos(cosen0)
+	tangent3 = tan(tangent3)
+	ra1z = rc(ra1z)
+	logaritmoNatur4l = ln(logaritmoNatur4l)
+	logaritmo10 = ln(numer0) / ln(10)
+	
+	escribir " el seno del numero " sen0
+	escribir " el coseno del numero " cosen0
+	escribir " el tangente del numero " tangent3
+	escribir " el raiz natural del numero " ra1z
+	escribir " el algoritmo natural del numero " logaritmoNatur4l
+	escribir " el algoritmo 10 del numero " logaritmo10
+	
+FinAlgoritmo
+

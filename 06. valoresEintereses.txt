@@ -1,0 +1,16 @@
+Algoritmo valoresEintereses	
+	definir dinero, dias, porcen Como Real
+	Escribir "Ingrese el dinero"
+	Leer dinero
+	Escribir "Ingrese el Dias"
+	Leer dias
+	Escribir "Ingrese el Porcen"
+	Leer porcen
+	valorIntereses <- (dinero * porcen * dias) / 100
+	impuestos <- valorIntereses * 0.07
+	pagar <- dinero + valorIntereses - impuestos 
+	Escribir "El pago es: ", pagar 
+	Escribir "El impuesto es: ", impuestos 
+	Escribir "El porcentaje de intereses es: ", valorIntereses
+	
+FinAlgoritmo

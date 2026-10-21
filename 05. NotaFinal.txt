@@ -1,0 +1,15 @@
+Algoritmo NotaFinal 
+	definir n1, n2, n3, n4, nfinal Como Real
+	Escribir "Escriba su primer nota 1"
+	leer n1
+	Escribir "Escribal la nota 2"
+	leer n2
+	Escribir "Escriba la nota 3"
+	leer n3
+	Escribir "Escriba la nota 4"
+	leer n4
+	nfinal <- (n1 + n2 + n3 + n4) / 4
+	Escribir "La nota es: " nfinal 
+	
+	
+FinAlgoritmo

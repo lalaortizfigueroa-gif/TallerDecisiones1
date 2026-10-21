@@ -1,0 +1,10 @@
+Algoritmo SalarioEmpleado
+	Definir numHoras, valHoras, salarioPagar como real 
+	Escribir "Dame las horas realizadas:"
+	Leer numHoras
+	Escribir "Dame el valor de las horas:" 
+	Leer valHoras 
+	salarioPagar <- numHoras * valHoras
+	Escribir "EL salario total es: " salarioPagar
+	
+FinAlgoritmo
